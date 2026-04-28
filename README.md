@@ -58,12 +58,4 @@ It bridges the gap between **human creativity and artificial intelligence**, mak
 
 ---
 
-## ⚡ System Architecture
 
-mermaid
-graph TD;
-    A[User Input (Canvas / Prompt)] --> B[Frontend (React + Canvas API)]
-    B --> C[Backend (Node.js + Express)]
-    C --> D[AI Model API]
-    D --> E[Generated Image]
-    E --> F[Display on UI]
